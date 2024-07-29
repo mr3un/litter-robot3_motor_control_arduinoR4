@@ -25,13 +25,15 @@ So, why not just control/drive the motor yourself. You can easily setup a camera
 
 You need:
 
-  Arudino UNO R4 WIFI (Any Arduino with WIFI module would work)
+  Arudino UNO R4 WIFI (Any Arduino with WIFI module would work) - https://www.amazon.com/Arduino-UNO-WiFi-ABX00087-Bluetooth/dp/B0C8V88Z9D/ref=sr_1_5?dib=eyJ2IjoiMSJ9.6-55ZkgVCQpz5t-A9OQ_Ig9Y7KdmzoFCl5dBdjSQZO5gwGcdtxRWubPgPzFcMTYiD_x_t1BC_T1cC5xX2n7YKV8Rc44YpQn5EEB1gDi07pI3xNfF-kKRxvddOfJwdT7AbDktHN9SyRmGzP82FSXPCcL33GqJ6HqPScQIATo-ihn9EOCiUCIKpnHRmeKQopqlt8CaHDJiBZQA2DBwgw7CPGfXcJvXEMuUM42KX99QqH8ikvuI432zAUdpyG07Y_gYb0mRtzIuD_hsqf1QWPkD8G1JMVgqk6453BIZJXQMpXs.fYr0hVb75T1tcqKcN5q75z1OGOh_lYXleReIq3WpN1Q&dib_tag=se&keywords=arduino+r4+wifi&qid=1722267641&sr=8-5
   
-  12V Power Supply
+  12V Power Supply - https://www.amazon.com/Adapter-100-240V-Transformer-Charger-Security/dp/B091XSVV1Y/ref=sr_1_9?crid=1Y2XMHWP22OMK&dib=eyJ2IjoiMSJ9.hfVvVsJ0kMTmlJR24sRzRNMPJtBhVbHyKIiAVcF25u-ZRIm4OJxO0hfjfoZ2nPVBaUijinuwJ9UQklKBW_OAp0SqLQ7HboU3fBUweyAtXIYGtBqrS36LKMXDlGJzUU3HmxNIJeo1w5Q2im-Fl3nGxwSzWzY1FYILcReKyGML_AtvwbDNSukErHc3m7E_tuIktVnAMKQ2YXuJ7d9VGuzW5Db6KtjlBYI72OckYMcDwD-FUETsz375uhthPU4bCGRqEjF4XSYb1DPRIlVXqESbZF8yiFxtOv_2SticygjvzOw.nhir2BZ61eI-xycc33Ytdn4V_Q6p9YTR6g8L6SKpU7Q&dib_tag=se&keywords=12v+power+supply&qid=1722267657&sprefix=12v%2Caps%2C90&sr=8-9
   
-  L298n Motor Driver 
+  L298n Motor Driver -https://www.amazon.com/WWZMDiB-L298N-H-Bridge-Controller-Raspberry/dp/B0CR6BX5QL/ref=sr_1_6?crid=21B1CG1GVXOYK&dib=eyJ2IjoiMSJ9.hK2FjV8Ukp8CCyVTI1seMk4n3aguoO_lNXX3xoiH-O38t-On6SSb-8za6hi423P24Clvvz-QC0YIK6ixOCNOO_1PeZwvJA1tepbuO9DRpiM-tbhuugF6939ckXhQRGOrmdZpEHuade01KDDpsvZmRfP4zOnVQq-8oT6Uwx-oqRyqW0jX5-2DnmUPtWHraDXvDEzP6e8vY851mmDS4TbTuW-msTN_uDQ32cnkmjol3pw9jpYKwW26Cw5FAU_Z7l0nvbDYdX9drjNoHvGiEYQQvGSEv_XSJ40wIbpOPR-_ir8.62cw2VniBTsOKjMMO2-85EUO3OFIAExSg-r1hrW4hTw&dib_tag=se&keywords=l298n&qid=1722267680&sprefix=l29%2Caps%2C88&sr=8-6
   
-  Arduino Cloud Free Account (This is for easier deployment of a web app)
+  Arduino Cloud Free Account (This is for easier deployment of a web app) - https://cloud.arduino.cc/
+
+  These cost around ~50 bucks on amazon US. 
 
 For the L298n driver, it require power for the 12V GND pin from the 12V power supply and a logic signal on whether channel A or B depending whether you wire the motor to the top terminal or the lower one. Basically the control signal from your arduino control the motor movement. For code showing here i wire the digital output 2, 3 to the L298n control. 
 ![Alt text](https://m.media-amazon.com/images/I/71rrEdpUD+L._SX522_.jpg)
