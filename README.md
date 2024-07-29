@@ -1,5 +1,7 @@
 # litter-robot3_motor_control_arduinoR4
 
+![IMG_6083 (2)](https://github.com/user-attachments/assets/1c10cd64-80f5-43e3-817d-df9cb1d55945)
+
 Do you have a litter robot 3 (connect or open air) with sensor issue, i.e. sphere not moving for all sorts of reasons, but still have a working motor (https://litter-robot.com/litter-robot-3-motor-assembly.html)? 
 
 Well, you are in luck cuz i want to show you how you can build a motor driver that can be remote control by a web app thanks to the power of arduino R4 wifi.
@@ -51,10 +53,13 @@ Import the .tino file manuelly, then plug in your R4 wifi borad, follow the setu
 
 After all setup with power provided and all wires attached, you can control your litter robot in the web app in "Dashborad" as shown here. This also works on your phone if you install the Arduino IOT app and log in to your account.  
 
+![FullSizeRender (1)](https://github.com/user-attachments/assets/69ab60dd-52c3-4cdf-8106-1487bffc2056)
+
+Your litter robot is back in order!
 
 ###You can also modified the .ino file to make this work only in your local network, like you have to go to "192.168.x.x" to control the litter robot. I choosed arduino cloud so i dont have to deal with all tunneling issue. 
 
-###Also the LED in R4 indicate the states this control is in. The default "Arudino" animate is when "Go" is off and the arrow spining is for when "Go" is on. You can also use this to check system online or not by looking at the LED.
+###Also the LED in R4 indicate the states this control is in. The default "Arudino" animate is when "Go" is off and the arrow spining is for when "Go" is on. You can also use this to check system online or not by looking at the LED. You would want to disable those matrix code if your arduino is not a R4 WIFI. 
 
 
 
