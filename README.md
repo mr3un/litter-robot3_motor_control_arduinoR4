@@ -35,8 +35,10 @@ You need:
 
   These cost around ~50 bucks on amazon US. 
 
-For the L298n driver, it require power for the 12V GND pin from the 12V power supply and a logic signal on whether channel A or B depending whether you wire the motor to the top terminal or the lower one. Basically the control signal from your arduino control the motor movement. For code showing here i wire the digital output 2, 3 to the L298n control. 
 ![Alt text](https://m.media-amazon.com/images/I/71rrEdpUD+L._SX522_.jpg)
+
+For the L298n driver, it require power for the 12V GND pin from the 12V power supply and a logic signal on whether channel A or B depending whether you wire the motor to the top terminal or the lower one. Basically the control signal from your arduino control the motor movement. For code showing here i wire the digital output 2, 3 to the L298n control. 
+
 
 On the arduino side, it served esstenially as two buttom, a Go/Stop Switch and a Left/Right Switch. If the Go switch is on then the litter motion start in the direction you choose. Check the .ino file for more details.
 
