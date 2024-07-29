@@ -1,5 +1,6 @@
 # litter-robot3_motor_control_arduinoR4
-
+What should i do?
+![IMG_6104](https://github.com/user-attachments/assets/ea73822f-2f85-48e7-8eb8-fefe3342336e)
 ![IMG_6083 (2)](https://github.com/user-attachments/assets/1c10cd64-80f5-43e3-817d-df9cb1d55945)
 
 Do you have a litter robot 3 (connect or open air) with sensor issue, i.e. sphere not moving for all sorts of reasons, but still have a working motor (https://litter-robot.com/litter-robot-3-motor-assembly.html)? 
