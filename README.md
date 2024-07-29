@@ -54,5 +54,7 @@ After all setup with power provided and all wires attached, you can control your
 
 ###You can also modified the .ino file to make this work only in your local network, like you have to go to "192.168.x.x" to control the litter robot. I choosed arduino cloud so i dont have to deal with all tunneling issue. 
 
+###Also the LED in R4 indicate the states this control is in. The default "Arudino" animate is when "Go" is off and the arrow spining is for when "Go" is on. You can also use this to check system online or not by looking at the LED.
+
 
 
