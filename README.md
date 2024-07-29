@@ -21,7 +21,8 @@ But at some point it could be challenging to exactly fixes those thing.
 
 So, why not just control/drive the motor yourself. You can easily setup a camera to watch the litter robot so no cat can be hurt in the process as litter robot company was intented. 
 
-You need: 
+You need:
+
   Arudino UNO R4 WIFI (Any Arduino with WIFI module would work)
   
   12V Power Supply
@@ -35,9 +36,23 @@ For the L298n driver, it require power for the 12V GND pin from the 12V power su
 
 On the arduino side, it served esstenially as two buttom, a Go/Stop Switch and a Left/Right Switch. If the Go switch is on then the litter motion start in the direction you choose. Check the .ino file for more details.
 
-The easiest way to deploy this project is to utilize the arudino cloud hosting with a template. 
-####Still working 
+The easiest way to deploy this project is to utilize the arudino cloud hosting with a template .tino file i included here.
 
+
+<img width="264" alt="image" src="https://github.com/user-attachments/assets/6feb0ae6-35d4-40e8-9624-6df23f54fbc6">
+
+Go to the Arduino cloud Templates tab
+
+<img width="1632" alt="image" src="https://github.com/user-attachments/assets/1e441e7f-8bc0-4133-be7b-d2661aca996f">
+
+Import the .tino file manuelly, then plug in your R4 wifi borad, follow the setup process. You would need to change add your wifi information to network in "Things" tab setup to to connect R4 to your wifi. 
+
+<img width="1914" alt="image" src="https://github.com/user-attachments/assets/121ef1a5-658a-4857-ba5d-19becc713265">
+
+After all setup with power provided and all wires attached, you can control your litter robot in the web app in "Dashborad" as shown here. This also works on your phone if you install the Arduino IOT app and log in to your account.  
+
+
+###You can also modified the .ino file to make this work only in your local network, like you have to go to "192.168.x.x" to control the litter robot. I choosed arduino cloud so i dont have to deal with all tunneling issue. 
 
 
 
